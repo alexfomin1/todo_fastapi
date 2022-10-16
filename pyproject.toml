@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "todo-fastapi"
+version = "0.1.0"
+description = ""
+authors = ["alex <me@fomin3.ru>"]
+readme = "README.md"
+packages = [{include = "todo_fastapi"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+SQLAlchemy = "^1.4.41"
+fastapi = "^0.85.1"
+uvicorn = "^0.18.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
